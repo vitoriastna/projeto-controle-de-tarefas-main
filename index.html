@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Minhas Tarefas</h1>
+        
+        <!-- Formulário para adicionar tarefa -->
+        <div class="input-grupo">
+            <input type="text" id="inputTarefa" placeholder="O que tens para fazer hoje?">
+            <button id="botaoAdicionar">Adicionar</button>
+        </div>
+
+        <!-- Contador e botão de limpar tudo -->
+        <div class="painel-info">
+            <span id="contadorTarefas">Tarefas pendentes: 0</span>
+            <button id="botaoLimparTudo" class="btn-limpar-tudo">Limpar Tudo</button>
+        </div>
+
+        <!-- Lista onde as tarefas vão aparecer -->
+        <ul id="listaTarefas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
